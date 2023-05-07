@@ -1,0 +1,11 @@
+spring:
+  rabbitmq:
+    host: 47.108.145.147
+    port: 5672
+    username: admin
+    password: admin
+    virtual-host: /
+    publisher-confirm-type: correlated
+    publisher-returns: true
+    template:
+      mandatory: true
